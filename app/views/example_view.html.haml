@@ -1,0 +1,17 @@
+%h1 Listing admin_achievements
+
+%table
+  %tr
+    %th
+    %th
+    %th
+
+  - @admin_achievements.each do |admin_achievement|
+    %tr
+      %td= link_to 'Show', admin_achievement
+      %td= link_to 'Edit', edit_admin_achievement_path(admin_achievement)
+      %td= link_to 'Destroy', admin_achievement, method: :delete, data: { confirm: 'Are you sure?' }
+
+%br
+
+= link_to 'New Achievement', new_admin_achievement_path
