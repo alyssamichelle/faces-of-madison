@@ -17,7 +17,7 @@ body{
   font-size: 12px; 
   /*1 em = 12px*/
   position: relative;
-  background-color: #f9f7f3;
+  background: url(../assets/bg/flowerRepeating.png) #f9f7f3;
 }
 
 header{
@@ -25,7 +25,7 @@ header{
 /*  -moz-box-shadow:    3px 3px 5px 3px #a0c5e8;
   -webkit-box-shadow: 3px 3px 5px 3px #a0c5e8;*/
   box-shadow:         1px 1px 2px 1px #485969;
-  background-image: url(../assets/designyBlue.gif);
+  background-image: url(../assets/bg/designyBlue.gif);
   background-position: center top;
 }
 
@@ -94,24 +94,6 @@ img{
   /*border-radius: 100%;*/
 }
 
-.rotate90{
-  -webkit-transform:rotate(90deg);
-  -moz-transform:rotate(90deg);
-  -o-transform:rotate(90deg);
-  -ms-transform:rotate(90deg);
-}
-
-.rotate180{
-  -webkit-transform:rotate(180deg);
-  -moz-transform:rotate(180deg);
-  -o-transform:rotate(180deg);
-  -ms-transform:rotate(180deg);
-}
-
-.large{
-  width: 12%;
-}
-
 #imagesContainer > div{
   background-repeat: no-repeat;
   background-position: center center;
@@ -120,7 +102,7 @@ img{
   -webkit-mask-box-image: url('/assets/circle.svg');
   float: left;
   -webkit-mask-box-image: url('/assets/circle.svg');
-  -webkit-transition: height 200ms ease-in, width 200ms ease-in;
+  -webkit-transition: height 400ms ease-in, width 400ms ease-in;
 }
 
 .flower{
@@ -141,8 +123,8 @@ img{
 }
 
 .flower3{
-  top: 1200px;
-  left: 1050px;
+  top: 1000px;
+  left: 650px;
   width: 9%;
 }
 
